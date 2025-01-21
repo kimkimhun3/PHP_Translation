@@ -1,0 +1,10 @@
+{
+    "login_title": "ログイン",
+    "username_placeholder": "ユーザー名",
+    "password_placeholder": "パスワード",
+    "login_button": "ログイン",
+    "dashboard_title": "ダッシュボード",
+    "welcome_message": "ようこそ",
+    "wifi_settings": "WiFi設定",
+    "logout": "ログアウト"
+}

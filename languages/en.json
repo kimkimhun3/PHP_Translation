@@ -1,0 +1,10 @@
+{
+    "login_title": "Login",
+    "username_placeholder": "Username",
+    "password_placeholder": "Password",
+    "login_button": "Login",
+    "dashboard_title": "Dashboard",
+    "welcome_message": "Welcome",
+    "wifi_settings": "WiFi Settings",
+    "logout": "Logout"
+}
