@@ -1,0 +1,14 @@
+{
+    "login" : {
+        "username": "Username",
+        "password": "Password",
+        "login": "Login",
+        "logout": "Logout"
+    },
+    "Message" : {
+        "login_success": "Login successful.",
+        "login_in_progress": "Logging in...",
+        "login_fail": "Invalid username or password.",
+        "logout_success": "Logged out."
+    }
+}

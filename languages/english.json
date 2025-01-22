@@ -1,0 +1,32 @@
+{
+    "login" : {
+        "username": "Username",
+        "password": "Password",
+        "login": "Login",
+        "logout": "Logout"
+    },
+    "title" : {
+        "login_title": "Login Authentication",
+        "data_diode": "Data Diode",
+        "data_diode_setup": "Data Diode SetUp",
+        "data_diode_setting": "Data Diode Setting"
+    },
+    "setting" : {
+
+    },
+    "Message" : {
+        "login_success": "Login successful.",
+        "login_in_progress": "Logging in...",
+        "login_fail": "Invalid username or password.",
+        "logout_success": "Logged out.",
+        "usernmae_change": "Cannot be changed!"
+    },
+    "footer" : {
+        "reboot" : "Apply (restart)",
+        "time": "Time",
+        "initialize": "Initialize Setting",
+        "logout": "Logout"
+
+
+    }
+}
