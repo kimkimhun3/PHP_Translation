@@ -24,19 +24,23 @@
         "connection": "Connection",
         "sever": "Server",
         "parameter": "Parameter",
-        "destination1": "Destination IP",
+        "destination1": "Destination",
         "transfer_interval": "Transfer Interval Delay Time",
         "flow_control": "Flow Control",
         "receive_rang": "Receiving Range",
         "manager": "Manager",
-        "system_setting": "System Setting"
+        "system_setting": "System Setting",
+        "data_time": "Date and Time",
+        "register": "Registration"
     },
     "Message": {
         "login_success": "Logged in successfully",
         "login_in_progress": "Logging in...",
         "login_fail": "The username or password is incorrect.",
         "logout_success": "Logged out successfully.",
-        "usernmae_change": "(Cannot be changed)"
+        "usernmae_change": "(Cannot be changed)",
+        "alert1": "is required.",
+        "alert2": "is incorrect."
     },
     "footer": {
         "reboot": "Apply (Reboot)",

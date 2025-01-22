@@ -29,14 +29,18 @@
         "flow_control": "フロー制御",
         "receive_rang": "受信範囲",
         "manager": "マネージャ",
-        "system_setting": "システム設定"
+        "system_setting": "システム設定",
+        "data_time": "日時",
+        "register": "登録"
     },
     "Message" : {
         "login_success": "ログインしました",
         "login_in_progress": "ログインしています。",
         "login_fail": "ユーザー名かパスワードが間違っています。",
         "logout_success": "ログアウトしました。",
-        "usernmae_change": "(変更することは出来ません)"
+        "usernmae_change": "(変更することは出来ません)",
+        "alert1": "は必須入力項目です",
+        "alert2": "が正しくありません"
     },
     "footer" : {
         "reboot" : "適用(再起動)",
