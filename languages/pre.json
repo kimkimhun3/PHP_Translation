@@ -1,0 +1,66 @@
+{
+    "login" : {
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "login": "ログイン",
+        "logout": "ログアウト"
+    },
+    "title" : {
+        "login_title": "ログイン認証",
+        "data_diode": "データダイオード",
+        "data_diode_setup": "データダイオードセットアップ",
+        "data_diode_setting": "データダイオード設定"
+    },
+    "setting" : {
+        "label": {
+            "tcp": "TCP",
+            "ftp": "FTP",
+            "syslog": "Syslog",
+            "snmp-trap": "SNMP-Trap",
+            "control": "管理"
+        },
+        "content1": {
+            "basic_config": "基本構成",
+            "sbc1_setting": "SBC1設定",
+            "subnet_mask": "サブネットマスク",
+            "sbc2_setting": "SBC2設定",
+            "default_gateway": "デフォルトゲートウェイ"
+        },
+        "content2": {
+            "destination" : "送信先",
+            "source": "送信元",
+            "connection": "接続"
+        },
+        "content3": {
+            "sever": "サーバ",
+            "parameter": "パラメータ",
+            "destination": "接続先",
+            "transfer_interval": "転送間隔遅延時間",
+            "flow_control": "フロー制御"
+        },
+        "content4": {  
+            "receive_rang": "受信範囲"
+        },
+        "content5": {
+            "manager": "マネージャ"
+        },
+        "content6": {
+            "system_setting": "システム設定"
+        }
+    },
+    "Message" : {
+        "login_success": "ログインしました",
+        "login_in_progress": "ログインしています。",
+        "login_fail": "ユーザー名かパスワードが間違っています。",
+        "logout_success": "ログアウトしました。",
+        "usernmae_change": "(変更することは出来ません)"
+    },
+    "footer" : {
+        "reboot" : "適用(再起動)",
+        "time": "時刻",
+        "initialize": "設定初期化",
+        "logout": "ログアウト"
+
+
+    }
+}

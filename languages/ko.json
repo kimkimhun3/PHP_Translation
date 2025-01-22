@@ -1,0 +1,10 @@
+{
+    "login_title": "로그인",
+    "username_placeholder": "사용자 이름",
+    "password_placeholder": "비밀번호",
+    "login_button": "로그인",
+    "dashboard_title": "대시보드",
+    "welcome_message": "환영합니다",
+    "wifi_settings": "Wi-Fi 설정",
+    "logout": "로그아웃"
+}

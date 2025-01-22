@@ -6,14 +6,14 @@ define('LANGUAGE_FILE', 'language.txt');
 function getLanguage() {
     if (file_exists(LANGUAGE_FILE)) {
         $lang = trim(file_get_contents(LANGUAGE_FILE));
-        return in_array($lang, ['en', 'ja']) ? $lang : 'en';
+        return in_array($lang, ['en', 'ja','ko']) ? $lang : 'en';
     }
     return 'en'; // Default to English if file doesn't exist
 }
 
 // Function to update the language in the file
 function setLanguage($newLang) {
-    if (in_array($newLang, ['en', 'ja'])) {
+    if (in_array($newLang, ['en', 'ja','ko'])) {
         file_put_contents(LANGUAGE_FILE, $newLang);
     }
 }

@@ -1,32 +1,47 @@
 {
-    "login" : {
+    "login": {
         "username": "Username",
         "password": "Password",
         "login": "Login",
         "logout": "Logout"
     },
-    "title" : {
+    "title": {
         "login_title": "Login Authentication",
         "data_diode": "Data Diode",
         "data_diode_setup": "Data Diode Setup",
         "data_diode_setting": "Data Diode Setting"
     },
-    "setting" : {
-
+    "setting": {
+        "setting": "Setting",
+        "control": "Control",
+        "basic_config": "Basic Setting",
+        "sbc1_setting": "SBC1 Setting",
+        "subnet_mask": "Subnet Mask",
+        "sbc2_setting": "SBC2 Setting",
+        "default_gateway": "Default Gateway",
+        "destination": "Destination",
+        "source": "Source",
+        "connection": "Connection",
+        "sever": "Server",
+        "parameter": "Parameter",
+        "destination1": "Destination IP",
+        "transfer_interval": "Transfer Interval Delay Time",
+        "flow_control": "Flow Control",
+        "receive_rang": "Receiving Range",
+        "manager": "Manager",
+        "system_setting": "System Setting"
     },
-    "Message" : {
-        "login_success": "Login successful.",
+    "Message": {
+        "login_success": "Logged in successfully",
         "login_in_progress": "Logging in...",
-        "login_fail": "Invalid username or password.",
-        "logout_success": "Logged out.",
+        "login_fail": "The username or password is incorrect.",
+        "logout_success": "Logged out successfully.",
         "usernmae_change": "(Cannot be changed)"
     },
-    "footer" : {
-        "reboot" : "Apply (restart)",
+    "footer": {
+        "reboot": "Apply (Reboot)",
         "time": "Time",
-        "initialize": "Initialize Setting",
+        "initialize": "Reset Setting",
         "logout": "Logout"
-
-
     }
 }

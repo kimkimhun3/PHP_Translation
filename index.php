@@ -43,6 +43,7 @@ if (!isset($_SESSION['user'])) {
         <select name="language" onchange="this.form.submit()">
             <option value="en" <?php echo ($lang == 'en') ? 'selected' : ''; ?>>English</option>
             <option value="ja" <?php echo ($lang == 'ja') ? 'selected' : ''; ?>>日本語</option>
+            <option value="ko" <?php echo ($lang == 'ko') ? 'selected' : ''; ?>>Korean</option>
         </select>
     </form>
 

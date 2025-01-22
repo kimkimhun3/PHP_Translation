@@ -12,7 +12,24 @@
         "data_diode_setting": "データダイオード設定"
     },
     "setting" : {
-
+        "setting": "設定",
+        "control": "管理",
+        "basic_config": "基本構成",
+        "sbc1_setting": "SBC1設定",
+        "subnet_mask": "サブネットマスク",
+        "sbc2_setting": "SBC2設定",
+        "default_gateway": "デフォルトゲートウェイ",
+        "destination" : "送信先",
+        "source": "送信元",
+        "connection": "接続",
+        "sever": "サーバ",
+        "parameter": "パラメータ",
+        "destination1": "接続先",
+        "transfer_interval": "転送間隔遅延時間",
+        "flow_control": "フロー制御",
+        "receive_rang": "受信範囲",
+        "manager": "マネージャ",
+        "system_setting": "システム設定"
     },
     "Message" : {
         "login_success": "ログインしました",
@@ -26,7 +43,5 @@
         "time": "時刻",
         "initialize": "設定初期化",
         "logout": "ログアウト"
-
-
     }
 }
