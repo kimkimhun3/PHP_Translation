@@ -1,14 +1,32 @@
 {
     "login" : {
-        "username": "Username",
-        "password": "Password",
-        "login": "Login",
-        "logout": "Logout"
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "login": "ログイン",
+        "logout": "ログアウト"
+    },
+    "title" : {
+        "login_title": "ログイン認証",
+        "data_diode": "データダイオード",
+        "data_diode_setup": "データダイオードセットアップ",
+        "data_diode_setting": "データダイオード設定"
+    },
+    "setting" : {
+
     },
     "Message" : {
-        "login_success": "Login successful.",
-        "login_in_progress": "Logging in...",
-        "login_fail": "Invalid username or password.",
-        "logout_success": "Logged out."
+        "login_success": "ログインしました",
+        "login_in_progress": "ログインしています。",
+        "login_fail": "ユーザー名かパスワードが間違っています。",
+        "logout_success": "ログアウトしました。",
+        "usernmae_change": "(変更することは出来ません)"
+    },
+    "footer" : {
+        "reboot" : "適用(再起動)",
+        "time": "時刻",
+        "initialize": "設定初期化",
+        "logout": "ログアウト"
+
+
     }
 }

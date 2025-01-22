@@ -8,7 +8,7 @@
     "title" : {
         "login_title": "Login Authentication",
         "data_diode": "Data Diode",
-        "data_diode_setup": "Data Diode SetUp",
+        "data_diode_setup": "Data Diode Setup",
         "data_diode_setting": "Data Diode Setting"
     },
     "setting" : {
@@ -19,7 +19,7 @@
         "login_in_progress": "Logging in...",
         "login_fail": "Invalid username or password.",
         "logout_success": "Logged out.",
-        "usernmae_change": "Cannot be changed!"
+        "usernmae_change": "(Cannot be changed)"
     },
     "footer" : {
         "reboot" : "Apply (restart)",
