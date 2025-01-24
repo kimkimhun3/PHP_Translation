@@ -1,10 +1,56 @@
 {
-    "login_title": "Login",
-    "username_placeholder": "Username",
-    "password_placeholder": "Password",
-    "login_button": "Login",
-    "dashboard_title": "Dashboard",
-    "welcome_message": "Welcome",
-    "wifi_settings": "WiFi Settings",
-    "logout": "Logout"
+    "login": {
+        "username": "Username",
+        "password": "Password",
+        "login": "Login",
+        "logout": "Logout"
+    },
+    "title": {
+        "login_title": "Login Authentication",
+        "data_diode": "Data Diode",
+        "data_diode_setup": "Data Diode Setup",
+        "data_diode_setting": "Data Diode Setting"
+    },
+    "setting": {
+        "tcp": "TCP",
+        "ftp": "FTP",
+        "syslog": "Syslog",
+        "snmp_trap": "SNMP-Trap",
+        "setting": "Setting",
+        "control": "Control",
+        "basic_config": "Basic Setting",
+        "sbc1_setting": "SBC1 Setting",
+        "subnet_mask": "Subnet Mask",
+        "sbc2_setting": "SBC2 Setting",
+        "default_gateway": "Default Gateway",
+        "destination": "Destination",
+        "source": "Source",
+        "connection": "Connection",
+        "server": "Server",
+        "parameter": "Parameter",
+        "destination1": "Destination",
+        "transfer_interval": "Transfer Interval Delay Time",
+        "flow_control": "Flow Control",
+        "receive_rang": "Receive Range",
+        "manager": "Manager",
+        "system_setting": "System Setting",
+        "data_time": "Date and Time",
+        "register": "Registration"
+    },
+    "message": {
+        "login_success": "Logged in successfully",
+        "login_in_progress": "Logging in...",
+        "login_fail": "The username or password is incorrect.",
+        "logout_success": "Logged out successfully.",
+        "usernmae_change": "(Cannot be changed)",
+        "alert1": "is required.",
+        "alert2": "is incorrect."
+    },
+    "footer": {
+        "reboot": "Apply (Reboot)",
+        "time": "Time",
+        "times": "Time",
+        "initialize": "Reset Setting",
+        "logout": "Logout"
+    }
 }

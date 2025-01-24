@@ -1,0 +1,28 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically align all items */
+  box-sizing: border-box;
+}
+
+header p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1;  /* Ensures equal height for text */
+  display: flex;
+  align-items: center; /* Align vertically with form */
+}
+
+header form {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align the form elements properly */
+}

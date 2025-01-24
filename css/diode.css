@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+html, body {
+  font-family: Arial, sans-serif !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12pt;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically align all items */
+  box-sizing: border-box;
+}
+
+header p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1;  /* Ensures equal height for text */
+  display: flex;
+  align-items: center; /* Align vertically with form */
+}
+
+header form {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align the form elements properly */
+}
+
+
+
+div#content {
+  padding-top: 50px;  /* Adjust for header height */
+  padding-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  color: #000;
+  text-align: center;
+}
+
+section {
+  margin: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+._button {
+  font-size: 95%;
+}
+
+.wrap-tab {
+  overflow: hidden;
+}
+
+.tab-radio {
+  display: none;
+}
+
+.list-tab-label {
+  display: flex;
+  margin: 0 -2px;
+  border-bottom: 3px solid #5bbee5;
+
+}
+
+.list-tab-label > li {
+  margin: 0 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.tab-label {
+  display: block;
+  padding: 0.5em 1em;
+  color: #000;
+  background: #ccc;
+  box-sizing: border-box;
+  font-size: 0.9em;
+  cursor: pointer;
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-align: center;  /* Ensure text is centered in each tab */
+  letter-spacing: 0.5px; /* Adjust spacing for better readability */
+  line-height: 1.4;  /* Ensure proper vertical alignment for mixed languages */
+}
+
+#tab-radio1:checked ~ .list-tab-label #tab-label1,
+#tab-radio2:checked ~ .list-tab-label #tab-label2,
+#tab-radio3:checked ~ .list-tab-label #tab-label3,
+#tab-radio4:checked ~ .list-tab-label #tab-label4,
+#tab-radio5:checked ~ .list-tab-label #tab-label5,
+#tab-radio6:checked ~ .list-tab-label #tab-label6 {
+  color: #fff;
+  background: #7d82fa;
+}
+
+.tab-content {
+  display: none;
+  height: 260px;
+  padding: 1em;
+  border-bottom: 1px solid #5bbee5;
+  border-left: 1px solid #5bbee5;
+  border-right: 1px solid #5bbee5;
+}
+
+#tab-radio1:checked ~ .wrap-tab-content #tab-content1,
+#tab-radio2:checked ~ .wrap-tab-content #tab-content2,
+#tab-radio3:checked ~ .wrap-tab-content #tab-content3,
+#tab-radio4:checked ~ .wrap-tab-content #tab-content4,
+#tab-radio5:checked ~ .wrap-tab-content #tab-content5,
+#tab-radio6:checked ~ .wrap-tab-content #tab-content6 {
+  display: block;
+}

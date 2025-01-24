@@ -1,19 +1,20 @@
 <?php
 // Define the language file path
-define('LANGUAGE_FILE', 'language.txt');
+$lang_location = __DIR__ . "/home/admin/main/language.txt";
+define('LANGUAGE_FILE', $lang_location);
 
 // Function to read the current language from the file
 function getLanguage() {
     if (file_exists(LANGUAGE_FILE)) {
         $lang = trim(file_get_contents(LANGUAGE_FILE));
-        return in_array($lang, ['en', 'ja','ko']) ? $lang : 'en';
+        return in_array($lang, ['en', 'ja']) ? $lang : 'ja';
     }
-    return 'en'; // Default to English if file doesn't exist
+    return 'ja'; // Default to English if file doesn't exist
 }
 
 // Function to update the language in the file
 function setLanguage($newLang) {
-    if (in_array($newLang, ['en', 'ja','ko'])) {
+    if (in_array($newLang, ['en', 'ja'])) {
         file_put_contents(LANGUAGE_FILE, $newLang);
     }
 }
@@ -30,6 +31,6 @@ $lang = getLanguage();
 
 // Load translations from JSON files
 $lang_file = __DIR__ . "/languages/{$lang}.json";
-$translations = json_decode(file_get_contents($lang_file), true) ?? [];
+$translate = json_decode(file_get_contents($lang_file), true) ?? [];
 
 ?>
