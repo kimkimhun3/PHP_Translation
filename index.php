@@ -9,12 +9,12 @@
 <body>
 
   <header>
-  <p><b><?php echo $translate["title"]["data_diode_setting"] ?></b></p>
-  <form method="POST" id="languageForm">
-    <select name="language" id="languageSelect" onchange="this.form.submit()" >
-        <option value="ja">日本語</option>
-        <option value="en">English</option>
-    </select>
+    <p><b><?php echo $translate["title"]["data_diode_setting"] ?></b></p>
+    <form method="POST" id="languageForm">
+        <select name="language" id="languageSelect" onchange="this.form.submit()" >
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+        </select>
     </form>
   </header>
 

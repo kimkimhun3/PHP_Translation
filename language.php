@@ -1,15 +1,13 @@
 <?php
 // Define the language file path
-$lang_location = __DIR__ . "/home/admin/main/language.txt";
-define('LANGUAGE_FILE', $lang_location);
-
+define('LANGUAGE_FILE', __DIR__ . "/home/admin/main/language.txt");
 // Function to read the current language from the file
 function getLanguage() {
     if (file_exists(LANGUAGE_FILE)) {
         $lang = trim(file_get_contents(LANGUAGE_FILE));
         return in_array($lang, ['en', 'ja']) ? $lang : 'ja';
     }
-    return 'ja'; // Default to English if file doesn't exist
+    return 'ja'; // Default to Japanese if file doesn't exist
 }
 
 // Function to update the language in the file

@@ -32,9 +32,10 @@ header p {
 
 header form {
   margin: 0;
-  padding: 0;
+  padding-right: 50px;
   display: flex;
   align-items: center; /* Align the form elements properly */
+
 }
 
 
